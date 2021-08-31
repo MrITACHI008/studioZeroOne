@@ -619,8 +619,8 @@ footer .second-row .newsletter {
 
 footer .second-row .newsletter input {
     position: relative;
-    right: 65px;
-    width: 300px;
+    right: 13px;
+    width: 248px;
     height: 44px;
     border-radius: 50px;
     border-top-right-radius: 1px;
@@ -640,7 +640,7 @@ footer .second-row .newsletter input::placeholder {
 footer .second-row .newsletter button {
     position: absolute;
     top: 0;
-    right: 90px;
+    right: -26px;
     width: 44px;
     height: 44px;
     border-top-right-radius: 50px;
