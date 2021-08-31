@@ -29,7 +29,7 @@ li {
 }
 
 header {
-    background-image: url("/images/Untitled-1.jpg");
+    background-image: url("/studioZeroOne/images/Untitled-1.jpg");
     background-size: cover;
     height: 700px;
     margin-bottom: 5rem;
@@ -711,7 +711,7 @@ footer .copyright p {
         width: 100%;
     }
     header {
-        background-image: url("/images/Untitled-1.jpg");
+        background-image: url("/studioZeroOne/images/Untitled-1.jpg");
         width: 101%;
         height: 434px;
     }
