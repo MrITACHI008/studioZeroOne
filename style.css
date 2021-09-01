@@ -1095,3 +1095,396 @@ footer .copyright p {
 
 
 }
+
+
+
+
+@media only screen and (max-width: 541px) {
+                    body {
+                        width: 98%;
+                    }
+                    header {
+                        background-image: url("/images/Untitled-1.jpg");
+                        width: 111%;
+                        height: 343px;
+                    }
+                    .nav {
+                        width: 95%;
+                        padding: 0.7rem 1rem;
+                    }
+                    .nav .logo {
+                        margin-left: 50px;
+                    }
+                    .nav .logo img {
+                        width: 82px;
+                        height: 47px;
+                    }
+                    .nav.scrolled {
+                        background-color: rgba(0, 0, 0, 0.5) !important;
+                        transition: background-color 200ms linear;
+                        box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.3);
+                    }
+                    .nav .navbar-toggler {
+                        display: block;
+                        position: absolute;
+                        top: 26px;
+                        right: 14px;
+                        z-index: 1000000;
+                    }
+                    .nav .menu-bar {
+                        position: fixed;
+                        top: 55px;
+                        right: -360px;
+                        width: 249px;
+                        height: 100vh;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        transition: all 0.6s ease;
+                    }
+                    .nav .menu-bar .menu-items {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        text-align: justify;
+                        padding: 40px 0;
+                    }
+                    .nav .menu-bar .menu-items li {
+                        position: relative;
+                        left: 131px;
+                        margin: 2rem 30px;
+                    }
+                    .hero-text {
+                        position: absolute;
+                        top: 43px;
+                        left: 34px;
+                        width: 80%;
+                    }
+                    .hero-text h3 {
+                        font-size: 44px;
+                        font-weight: 700;
+                        color: white;
+                    }
+                    .hero-text h6 {
+                        font-size: 44px;
+                        margin-top: -62px;
+                        padding: 0;
+                    }
+                    .hero-text p {
+                        font-size: 10px;
+                        margin-top: -108px;
+                    }
+                    .header-btn {
+                        margin-left: -41px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .header-btn li a {
+                        color: #fff;
+                        padding: 7px 10px;
+                        font-size: 13px;
+                        border: none;
+                        border-radius: 20px;
+                        background-color: #2A1E33;
+                        outline: none;
+                    }
+                    .header-btn li a:hover {
+                        color: #ffc040;
+                    }
+                    .services {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        width: 111%;
+                        padding-bottom: 93px;
+                        margin-top: -60px;
+                        margin-bottom: 1.2rem;
+                        background-color: #658c99;
+                        box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.3);
+                    }
+                    .services h3 {
+                        margin-top: 100px;
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                    .services h6 {
+                        margin: 0 33px;
+                        font-size: 13px;
+                        font-weight: 400;
+                        margin-top: -30px;
+                        color: #fff;
+                    }
+                    .provided {
+                        box-sizing: border-box;
+                        display: inline-block;
+                    }
+                    .provided .graphicdesign {
+                        position: relative;
+                        top: -12px;
+                        display: inline-block;
+                        border: none;
+                        margin: 63px 15px 4px 13px;
+                        width: 300px;
+                        height: 400px;
+                        padding: 20px 10px 10px 10px;
+                        background-color: #ffc040;
+                        border-radius: 15px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                    }
+                    .provided .socialmedia {
+                        position: relative;
+                        top: 16px;
+                        display: inline-block;
+                        border: none;
+                        margin: 20px 15px 49px 13px;
+                        width: 300px;
+                        height: 400px;
+                        padding: 20px 10px 10px 10px;
+                        background-color: #ffc040;
+                        border-radius: 15px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                    }
+                    .provided .productdesign {
+                        position: relative;
+                        top: 9px;
+                        display: inline-block;
+                        border: none;
+                        margin: 20px 15px 4px 13px;
+                        width: 300px;
+                        height: 400px;
+                        padding: 20px 10px 10px 10px;
+                        background-color: #ffc040;
+                        border-radius: 15px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                    }
+                    .aboutus {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        width: 111%;
+                        margin-bottom: 1.2rem;
+                        background-color: #FFE194;
+                        box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.3);
+                    }
+                    .aboutus h3 {
+                        margin-top: 84px;
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                    .aboutus h6 {
+                        font-size: 11px;
+                        font-weight: 400;
+                        margin-top: -30px;
+                        color: black;
+                    }
+                    .aboutus-img img {
+                        width: 468px;
+                        height: 312px;
+                        margin: 50px 0 20px 0;
+                        z-index: 5;
+                    }
+                    .contactus {
+                        width: 111%
+                    }
+                    .contactus h3 {
+                        margin-top: 79px;
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                    .contactus h6 {
+                        font-size: 13px;
+                        font-weight: 400;
+                        margin-top: -30px;
+                        color: black;
+                    }
+                    .contactus .form {
+                        width: 86%;
+                    }
+                    .contactus .form .comp-row input {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 55px 25px 25px 27px;
+                        width: 30%;
+                        height: 56px;
+                        border: 1px solid #cbced1;
+                        border-radius: 5px;
+                        padding: 0 25px;
+                        font-size: 16px;
+                        outline: none;
+                    }
+                    .contactus .form textarea {
+                        margin-top: 25px;
+                        width: 81%;
+                        resize: none;
+                        border: 1px solid #cbced1;
+                        border-radius: 5px;
+                        padding: 6px 25px 0 25px;
+                        font-size: 16px;
+                        outline: none;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .contactus .form .header-btn {
+                        margin: 2rem auto;
+                        width: 170px;
+                    }
+                    footer {
+                        width: 93%;
+                        height: 311px;
+                    }
+                    footer .row-one {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-left: -30px;
+                    }
+                    footer .row-one ul {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+                    footer .row-one a {
+                        padding-right: 20px;
+                        font-size: 26px;
+                        color: #ffffff;
+                    }
+                    footer .second-row {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        border-bottom: 1px solid white;
+                        padding-bottom: 15px;
+                    }
+                    footer .second-row ul {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    footer .second-row h6 {
+                        font-size: 13px;
+                        font-weight: 600;
+                        line-height: 12px;
+                        color: #ffffff;
+                        padding-bottom: 19px;
+                    }
+                    footer .second-row li {
+                        padding-bottom: 0;
+                    }
+                    footer .second-row li a {
+                        font-size: 7px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        color: #ffffff;
+                    }
+                    footer .second-row .first-row:nth-child(4) {
+                        max-width: 100px;
+                    }
+                    footer .second-row .newsletter {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        margin-top: 34px;
+                    }
+                    footer .second-row .newsletter input {
+                        position: relative;
+                        right: 7px;
+                        width: 76px;
+                        height: 27px;
+                        border-radius: 50px;
+                        border-top-right-radius: 1px;
+                        border-bottom-right-radius: 1px;
+                        padding: 0 24px;
+                        border: 0;
+                        background-color: #FFFF;
+                        font-weight: 500;
+                        outline: none;
+                    }
+                    footer .second-row .newsletter input::placeholder {
+                        opacity: 1;
+                        color: #6c6c6c;
+                    }
+                    footer .second-row .newsletter button {
+                        position: absolute;
+                        top: 0;
+                        right: -14px;
+                        width: 26px;
+                        height: 27px;
+                        border-top-right-radius: 50px;
+                        border-bottom-right-radius: 50px;
+                        border: 0;
+                        font-size: 20px;
+                        color: #000;
+                        background-color: none;
+                        cursor: pointer;
+                    }
+                    footer .first-row .footer-title {
+                        margin-bottom: 0;
+                    }
+                    footer .second-row .first-row {
+                        box-sizing: border-box;
+                        right: 21px;
+                        display: flow-root;
+                        position: relative;
+                    }
+                    footer .second-row .first-row .info {
+                        position: relative;
+                        top: 21px;
+                    }
+                    footer .second-row .first-row .sec-info {
+                        position: relative;
+                        top: 20px;
+                    }
+                    footer .footer-icon {
+                        display: inline-block;
+                        position: relative;
+                        left: 133px;
+                    }
+                    footer .footer-icon ul {
+                        position: relative;
+                        left: 23%;
+                        top: -8px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    footer .footer-icon a {
+                        padding-right: 12px;
+                        font-size: 26px;
+                        color: #FFF;
+                    }
+                    footer .footer-icon a img {
+                        width: 15px;
+                        height: 15px;
+                    }
+                    .botom-info {
+                        position: relative;
+                        left: -11px;
+                        top: 34px;
+                        display: flex;
+                        flex-direction: row;
+                        font-size: 9px;
+                    }
+                    .botom-info a {
+                        color: #fff;
+                        padding: 0 3px;
+                    }
+                    footer .copyright {
+                        position: absolute;
+                        left: 70%;
+                    }
+                    footer .copyright p {
+                        margin-top: -50px;
+                        position: relative;
+                        right: 37px;
+                        color: #fff;
+                        font-size: 9px;
+                    }
+                }
